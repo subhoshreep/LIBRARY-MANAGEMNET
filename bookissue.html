@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <Head>      
+        <Title>     
+        Book Issue 
+        </Title>  
+        <style type=text/css>   
+        body   
+        {  
+        height: 125vh;  
+        margin-top: 80px;  
+        padding: 30px;  
+        background-size: cover;  
+        font-family: sans-serif;  
+        }  
+        header {  
+        background-color: orange;  
+        position: fixed;  
+        left: 0;  
+        right: 0;  
+        top: 5px;  
+        height: 30px;  
+        display: flex;  
+        align-items: center;  
+        box-shadow: 0 0 25px 0 black;  
+        }  
+        header * {  
+        display: inline;  
+        }  
+        header li {  
+        margin: 20px;  
+        }  
+        header li a {  
+        color: blue;  
+        text-decoration: none;  
+        }  
+        </style>   
+        </Head>  
+        <Body>   
+        <header>  
+        <nav>  
+        <ul>  
+        <li>  
+        <a href="home page.html"> Home </a>  
+        </li>  
+        <li>  
+        <a href="bookstock.html"> Book Stock </a>  
+        </li>  
+        <li>  
+        <a href="bookissue.html"> Book Issue </a>  
+        </li>  
+        <li> <a href="contact.html"> Contact </a>  
+        </li>  
+        <li>  
+        <a href="login page.html"> LogOut </a>  
+        </li>  
+        </ul>  
+        </nav>  
+        </header>  
+        <form action="/action_page.php">
+            <h2>Book issue</h2>
+            <div class="input-container">
+              <input class="input-field" type="text" placeholder="NAME" name="NAME">
+            </div>
+            <div class="input-container"> 
+              <input class="input-field" type="number" placeholder="ROLL" name="ROLL">
+            </div>
+          
+            <div class="input-container">
+              
+              <input class="input-field" type="email" placeholder="Email" name="email">
+            </div>
+            <div class="input-container">
+              
+                <input class="input-field" type="number" placeholder="Phone" name="Phone">
+              </div>
+            <div class="input-container">
+              
+                <input class="input-field" type="text" placeholder="Book Name" name="Book Name">
+                </div>
+            <div class="input-container">
+                  
+                 <input class="input-field" type="date" placeholder="Issue Date" name="issue date">
+                 </div>
+                 <div class="input-container">
+              
+                    <input class="input-field" type="date" placeholder="Return date" name="Return Date">
+                  </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+</body>
+</html>
